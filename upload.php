@@ -19,4 +19,5 @@ if(isset($_FILES['upl']) && $_FILES['upl']['error'] == 0){
 }
 
 echo '{"status":"error"}';
-exit;
+exit; 
+?>
