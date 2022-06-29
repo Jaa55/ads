@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      SizedBox(width: 0.0, height: 0.0)
+      class  extends EnumClass {
+      
+        // static const  yes = _$yes;
+      
+        const ._(String name) : super(name);
+      
+        static BuiltSet<> get values => _$values;
+        static  valueOf(String name) => _$valueOf(name);
+      }
+
+
+      
+      import 'package:built_collection/built_collection.dart';
+      import 'package:built_value/built_value.dart';
+      import 'package:built_value/json_object.dart';
+      import 'package:built_value/serializer.dart';
+      
+      part '.g.dart';
+        {
+            "name": "Dart & Flutter",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
